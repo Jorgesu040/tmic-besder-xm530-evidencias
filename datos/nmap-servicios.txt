@@ -1,0 +1,117 @@
+                                                                                                                                                                                                                                                            
+┌──(jorge㉿vbox)-[~]
+└─$ nmap -sV -p 80,554,8899 -oN camara-servicios.txt 10.0.0.35
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-10-29 21:04 CET
+Nmap scan report for 10.0.0.35
+Host is up (0.00071s latency).
+
+PORT     STATE SERVICE    VERSION
+80/tcp   open  http
+554/tcp  open  rtsp       H264DVR rtspd 1.0
+8899/tcp open  ospf-lite?
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.95%I=7%D=10/29%Time=6AE3A6D1%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,1C80,"HTTP/1\.0\x20200\x20OK\r\nContent-type:\x20text/html\r\nE
+SF:xpires:\x200\r\n\r\n<!DOCTYPE\x20html\r\n\x20\x20\x20\x20PUBLIC\x20\"-/
+SF:/W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\x20\"http://www\.w3\.o
+SF:rg/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\r\n<html\x20xmlns=\"http:/
+SF:/www\.w3\.org/1999/xhtml\">\r\n\r\n<head>\r\n\x20\x20\x20\x20<meta\x20h
+SF:ttp-equiv=\"Content-Type\"\x20content=\"text/html;\x20charset=UTF-8\"\x
+SF:20/>\r\n\x20\x20\x20\x20<meta\x20http-equiv=\"X-UA-Compatible\"\x20cont
+SF:ent=\"IE=edge\"\x20/>\r\n\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x2
+SF:0type=\"text/css\"\x20media=\"screen\"\x20href=\"m\.css\"\x20/>\r\n\r\n
+SF:\x20\x20\x20\x20<title>NETSurveillance\x20WEB</title>\r\n\r\n\x20\x20\x
+SF:20\x20<!--\x20m\.js\x20-->\r\n\r\n\x20\x20\x20\x20<script\x20type=\"tex
+SF:t/javascript\"\x20language=\"JavaScript\">\r\n\x20\x20\x20\x20\x20var\x
+SF:20bCrossBrow=false;\r\n\t\x20var\x20bnpCheck\x20=\x20false;\r\nvar\x20s
+SF:howemailflag=3;\r\nvar\x20ShowTipFlag=1;\r\n\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20//wzy\x2020190904\r\n\x20\x20\x20\x20\x20\x20\x20\x20var\x20g_init
+SF:Width\x20=\x20document\.documentElement\.clientWidth;\r\n\r\n\x20\x20\x
+SF:20\x20\x20\x20\x20\x20//\x20var\x20SupportFind=false;\r\n\r\n\x20\x20\x
+SF:20\x20\x20\x20\x20\x20if\x20\(navigator\.platform\x20!=\x20\"Win32\"\)/
+SF:/\r\n\x20\x20\x20\x20\x20\x20\x20\x20{\r\n\x20\x20\x20\x20\x20\x20\x20\
+SF:x20}\r\n\x20\x20\x20\x20\x20\x20\x20\x20var\x20userAgent\x20=\x20naviga
+SF:tor\.u")%r(HTTPOptions,1F8B,"HTTP/1\.0\x20200\x20OK\r\nContent-type:\x2
+SF:0text/html\r\nExpires:\x200\r\n\r\n<!DOCTYPE\x20html\r\n\x20\x20\x20\x2
+SF:0PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\x20\"ht
+SF:tp://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\r\n<html\x2
+SF:0xmlns=\"http://www\.w3\.org/1999/xhtml\">\r\n\r\n<head>\r\n\x20\x20\x2
+SF:0\x20<meta\x20http-equiv=\"Content-Type\"\x20content=\"text/html;\x20ch
+SF:arset=UTF-8\"\x20/>\r\n\x20\x20\x20\x20<meta\x20http-equiv=\"X-UA-Compa
+SF:tible\"\x20content=\"IE=edge\"\x20/>\r\n\x20\x20\x20\x20<link\x20rel=\"
+SF:stylesheet\"\x20type=\"text/css\"\x20media=\"screen\"\x20href=\"m\.css\
+SF:"\x20/>\r\n\r\n\x20\x20\x20\x20<title>NETSurveillance\x20WEB</title>\r\
+SF:n\r\n\x20\x20\x20\x20<!--\x20m\.js\x20-->\r\n\r\n\x20\x20\x20\x20<scrip
+SF:t\x20type=\"text/javascript\"\x20language=\"JavaScript\">\r\n\x20\x20\x
+SF:20\x20\x20var\x20bCrossBrow=false;\r\n\t\x20var\x20bnpCheck\x20=\x20fal
+SF:se;\r\nvar\x20showemailflag=3;\r\nvar\x20ShowTipFlag=1;\r\n\x20\x20\x20
+SF:\x20\x20\x20\x20\x20//wzy\x2020190904\r\n\x20\x20\x20\x20\x20\x20\x20\x
+SF:20var\x20g_initWidth\x20=\x20document\.documentElement\.clientWidth;\r\
+SF:n\r\n\x20\x20\x20\x20\x20\x20\x20\x20//\x20var\x20SupportFind=false;\r\
+SF:n\r\n\x20\x20\x20\x20\x20\x20\x20\x20if\x20\(navigator\.platform\x20!=\
+SF:x20\"Win32\"\)//\r\n\x20\x20\x20\x20\x20\x20\x20\x20{\r\n\x20\x20\x20\x
+SF:20\x20\x20\x20\x20}\r\n\x20\x20\x20\x20\x20\x20\x20\x20var\x20userAgent
+SF:\x20=\x20navigator\.u");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8899-TCP:V=7.95%I=7%D=10/29%Time=6AE3A6D5%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,1F8B,"HTTP/1\.0\x20200\x20OK\r\nContent-type:\x20text/html\r\
+SF:nExpires:\x200\r\n\r\n<!DOCTYPE\x20html\r\n\x20\x20\x20\x20PUBLIC\x20\"
+SF:-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\x20\"http://www\.w3\
+SF:.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\r\n<html\x20xmlns=\"http
+SF:://www\.w3\.org/1999/xhtml\">\r\n\r\n<head>\r\n\x20\x20\x20\x20<meta\x2
+SF:0http-equiv=\"Content-Type\"\x20content=\"text/html;\x20charset=UTF-8\"
+SF:\x20/>\r\n\x20\x20\x20\x20<meta\x20http-equiv=\"X-UA-Compatible\"\x20co
+SF:ntent=\"IE=edge\"\x20/>\r\n\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\
+SF:x20type=\"text/css\"\x20media=\"screen\"\x20href=\"m\.css\"\x20/>\r\n\r
+SF:\n\x20\x20\x20\x20<title>NETSurveillance\x20WEB</title>\r\n\r\n\x20\x20
+SF:\x20\x20<!--\x20m\.js\x20-->\r\n\r\n\x20\x20\x20\x20<script\x20type=\"t
+SF:ext/javascript\"\x20language=\"JavaScript\">\r\n\x20\x20\x20\x20\x20var
+SF:\x20bCrossBrow=false;\r\n\t\x20var\x20bnpCheck\x20=\x20false;\r\nvar\x2
+SF:0showemailflag=3;\r\nvar\x20ShowTipFlag=1;\r\n\x20\x20\x20\x20\x20\x20\
+SF:x20\x20//wzy\x2020190904\r\n\x20\x20\x20\x20\x20\x20\x20\x20var\x20g_in
+SF:itWidth\x20=\x20document\.documentElement\.clientWidth;\r\n\r\n\x20\x20
+SF:\x20\x20\x20\x20\x20\x20//\x20var\x20SupportFind=false;\r\n\r\n\x20\x20
+SF:\x20\x20\x20\x20\x20\x20if\x20\(navigator\.platform\x20!=\x20\"Win32\"\
+SF:)//\r\n\x20\x20\x20\x20\x20\x20\x20\x20{\r\n\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20}\r\n\x20\x20\x20\x20\x20\x20\x20\x20var\x20userAgent\x20=\x20navi
+SF:gator\.u")%r(HTTPOptions,10F8,"\x20\x20\x20\x20\x20\x20\x20\x20function
+SF:\x20setcolors\(\)\x20{\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20dropFx\.start\('1'\)
+SF:;\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20ocx\.SetColor\(0,\
+SF:x20gca,\x20gcb,\x20gcc,\x20gcd\);\r\n\x20\x20\x20\x20\x20\x20\x20\x20}\
+SF:r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20}\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20}\);\r\n\x20\x20\x20\x20\x20\x20\x20\x20function\x20setaudio\
+SF:(\)\x20{\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20var\x20drag\x20=\x20clone\.makeDraggable\({\r\n\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20ocx\.SetSpecialParamEx\(10002,\x200,\x20gc
+SF:e,\x200\);\r\n\x20\x20\x20\x20\x20\x20\x20\x20}\r\n\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'container'
+SF::\x20container,\r\n\x20\x20\x20\x20\x20\x20\x20\x20function\x20setaudio
+SF:In\(\)\x20{\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20'droppables':\x20\[drop\]\r\n\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20ocx\.SetSpecialParamEx\(10004,\x200,\x20g
+SF:cf,\x200\);\r\n\x20\x20\x20\x20\x20\x20\x20\x20}\r\n\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\);\x20//\x20this\x20retu
+SF:rns\x20the\x20dragged\x20element\r\n\x20\x20\x20\x20</script>\r\n\r\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20drag\.sta
+SF:rt\(e\);\x20//\x20start\x20the\x20event\x20manual\t\r\n\x20\x20\x20\x20
+SF:<!--\x20\xe8\xae\xbe\xe5\xa4\x87\xe9\x80\x9a\xe9\x81\x93\x20\x20-->\r\n
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\);\r\n\r\n\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20//\xe9\xa2\x9c\xe8\x89\xb2\xe6\xbb
+SF:\x91\xe5\x9d\x97\r\n\x20\x20\x20\x20<script\x20type=\"text/javascript\"
+SF:>\r\n\x20\x20\x20\x20\x20\x20\x20\x20function\x20tl\(s\)\x20{\r\n\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20gslda\x20=\x20new\x20Slider\(
+SF:\$\('saa'\),\x20\$\('ska'\),\x20{\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20steps:\x20128,\r\n\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20var\x20ret;\r\n\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20");
+MAC Address: 00:13:00:AB:49:39 (IT-Factory)
+Service Info: Device: storage-misc
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 48.76 seconds
+                                                                                                                                                                                                                                                            
+┌──(jorge㉿vbox)-[~]
+└─$ 

@@ -1,0 +1,9 @@
+flowchart TD
+    A["Acceso autenticado a U-Boot"] --> B["Arranque temporal: init=/bin/sh"]
+    B --> C["Preparar tmpfs y copia de autenticación en RAM"]
+    C --> D["Superponer copia mediante mount bind"]
+    D --> E["Superponer rcS temporal y continuar con exec /sbin/init"]
+    E --> F["Login UART con la autenticación temporal"]
+    E --> G["dvrHelper y app.sh inician Sofia"]
+    F --> H["Shell root y vídeo simultáneos"]
+    G --> H

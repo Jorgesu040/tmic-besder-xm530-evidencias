@@ -1,0 +1,134 @@
+{
+  "fuente": "Original conservado localmente: flash-original-8MiB.bin",
+  "bytes": 8388608,
+  "sha256": "4f48c7c63ba24bf346bc80a9c123f729c98f2360945da2cea35c487140367290",
+  "crc32": "b1c224eb",
+  "alcance": "Regiones derivadas del archivo indicado. No acredita igualdad con otra copia sin comparar su SHA-256.",
+  "regiones": [
+    {
+      "mtd": "mtd0",
+      "nombre": "boot",
+      "inicio": "0x000000",
+      "fin_exclusivo": "0x040000",
+      "tamano_hex": "0x040000",
+      "bytes": 262144,
+      "kib": 256,
+      "tipo": "Código de arranque U-Boot",
+      "crc32_referencia": "d180b987",
+      "sha256_referencia": "2c3c66a86f7fa346c552361254b88fee2af142efdfd098b2e7e9c5715172f943"
+    },
+    {
+      "mtd": "mtd1",
+      "nombre": "kernel",
+      "inicio": "0x040000",
+      "fin_exclusivo": "0x1c0000",
+      "tamano_hex": "0x180000",
+      "bytes": 1572864,
+      "kib": 1536,
+      "tipo": "uImage / zImage ARM",
+      "crc32_referencia": "388d3bbd",
+      "sha256_referencia": "89c12ba95f2168f400e119a599a2d033c015a6e67820267ad7651f3351254fe3"
+    },
+    {
+      "mtd": "mtd2",
+      "nombre": "romfs",
+      "inicio": "0x1c0000",
+      "fin_exclusivo": "0x300000",
+      "tamano_hex": "0x140000",
+      "bytes": 1310720,
+      "kib": 1280,
+      "tipo": "CramFS",
+      "crc32_referencia": "b044e2ea",
+      "sha256_referencia": "71ce9cfd5c5dc6977ec9dc0427fa831b284a3255d637c849551bb031a4f45909",
+      "sistema_archivos": {
+        "bytes_declarados": 1200128,
+        "bytes_fuera_fs": 110592,
+        "cola_solo_ff": true,
+        "bloques": 610,
+        "entradas_fsid": 172,
+        "crc32_interno_guardado": "684f8bb6",
+        "crc32_interno_calculado": "684f8bb6",
+        "crc32_interno_valido": true
+      }
+    },
+    {
+      "mtd": "mtd3",
+      "nombre": "user",
+      "inicio": "0x300000",
+      "fin_exclusivo": "0x770000",
+      "tamano_hex": "0x470000",
+      "bytes": 4653056,
+      "kib": 4544,
+      "tipo": "SquashFS",
+      "crc32_referencia": "3401bb27",
+      "sha256_referencia": "16583893ff8a995463570f5b1610dffdb115d9a51c0d4e7885dfdebe8855662c",
+      "sistema_archivos": {
+        "bytes_used": 4542986,
+        "inodos": 357,
+        "tamano_bloque": 65536,
+        "id_compresion": 4,
+        "version": "4.0"
+      }
+    },
+    {
+      "mtd": "mtd4",
+      "nombre": "custom",
+      "inicio": "0x770000",
+      "fin_exclusivo": "0x7b0000",
+      "tamano_hex": "0x040000",
+      "bytes": 262144,
+      "kib": 256,
+      "tipo": "CramFS",
+      "crc32_referencia": "2ac1055a",
+      "sha256_referencia": "4eb1268769db131afb9447f03017eb7a305f27e5c6f41e39f0a11aaf3718e44c",
+      "sistema_archivos": {
+        "bytes_declarados": 196608,
+        "bytes_fuera_fs": 65536,
+        "cola_solo_ff": true,
+        "bloques": 110,
+        "entradas_fsid": 53,
+        "crc32_interno_guardado": "0f29fea5",
+        "crc32_interno_calculado": "0f29fea5",
+        "crc32_interno_valido": true
+      }
+    },
+    {
+      "mtd": "mtd5",
+      "nombre": "mtd",
+      "inicio": "0x7b0000",
+      "fin_exclusivo": "0x800000",
+      "tamano_hex": "0x050000",
+      "bytes": 327680,
+      "kib": 320,
+      "tipo": "JFFS2",
+      "crc32_referencia": "34ed1b67",
+      "sha256_referencia": "f0d0290d09eb9bc75b505544cdad8fc4702e1380dbc3cd4a68990729702c5ff4"
+    }
+  ],
+  "cabeceras_uimage": [
+    {
+      "offset": "0x00c968",
+      "bytes_payload": 16797923,
+      "fin_exclusivo": "0x1011a8b",
+      "cabe_en_flash": false,
+      "crc_cabecera_guardado": "1eff2fe1",
+      "crc_cabecera_calculado": "79639ac4",
+      "crc_cabecera_valido": false,
+      "crc_datos_guardado": "2c809de5",
+      "crc_datos_calculado": null,
+      "crc_datos_valido": null
+    },
+    {
+      "offset": "0x040000",
+      "bytes_payload": 1554400,
+      "fin_exclusivo": "0x1bb820",
+      "cabe_en_flash": true,
+      "crc_cabecera_guardado": "5f098dc3",
+      "crc_cabecera_calculado": "5f098dc3",
+      "crc_cabecera_valido": true,
+      "crc_datos_guardado": "af1ca5c2",
+      "crc_datos_calculado": "af1ca5c2",
+      "crc_datos_valido": true
+    }
+  ]
+}

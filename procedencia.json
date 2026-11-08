@@ -1,0 +1,772 @@
+[
+  {
+    "archivo": "figuras/figura-01.png",
+    "fuente": "identidad-y-conexiones.png",
+    "sha256_fuente": "17bd7b581f87451db32167a7ac3e18238c9d5b6279182bd959e8ed1e532281d6",
+    "sha256": "17bd7b581f87451db32167a7ac3e18238c9d5b6279182bd959e8ed1e532281d6",
+    "adaptado": false
+  },
+  {
+    "archivo": "originales/figura-1-1.png",
+    "fuente": "cam-id-05-camara-exterior.png",
+    "sha256_fuente": "fa7679868b0f565bb9d50509996614dad767d3f2ef656697cd68695aacae5baa",
+    "sha256": "fa7679868b0f565bb9d50509996614dad767d3f2ef656697cd68695aacae5baa",
+    "adaptado": false
+  },
+  {
+    "archivo": "originales/figura-1-2.jpg",
+    "fuente": "cam-id-03-conectores.jpg",
+    "sha256_fuente": "06983191a8c758111b597b56eccfff28853776c7a70018ed56a5a03477a8302c",
+    "sha256": "06983191a8c758111b597b56eccfff28853776c7a70018ed56a5a03477a8302c",
+    "adaptado": false
+  },
+  {
+    "archivo": "figuras/figura-02.png",
+    "fuente": "placa-principal-dos-caras.png",
+    "sha256_fuente": "d84bbfbf689122938dc1b29e9c1777758b2a8cdaccc752428f2c793399b8fcde",
+    "sha256": "d84bbfbf689122938dc1b29e9c1777758b2a8cdaccc752428f2c793399b8fcde",
+    "adaptado": false
+  },
+  {
+    "archivo": "originales/figura-2-1.jpg",
+    "fuente": "cam-hw-06-placa-cara-a.jpg",
+    "sha256_fuente": "90f349973a7a849a5111452cb65120d3cb517fd29f2417cb7fc6343ffaabde10",
+    "sha256": "90f349973a7a849a5111452cb65120d3cb517fd29f2417cb7fc6343ffaabde10",
+    "adaptado": false
+  },
+  {
+    "archivo": "originales/figura-2-2.jpg",
+    "fuente": "cam-hw-07-placa-principal-cara-b.jpg",
+    "sha256_fuente": "78e5670824b839803d92c467eb538d80d3fa9240cca10cf5275f9c8d8cc7241c",
+    "sha256": "78e5670824b839803d92c467eb538d80d3fa9240cca10cf5275f9c8d8cc7241c",
+    "adaptado": false
+  },
+  {
+    "archivo": "figuras/figura-03.jpg",
+    "fuente": "cam-hw-08-placa-frontal.jpg",
+    "sha256_fuente": "f4bed88bec2d74e42ace55eea405e744bac9352cd5a0201a988d0f509268e1ab",
+    "sha256": "f4bed88bec2d74e42ace55eea405e744bac9352cd5a0201a988d0f509268e1ab",
+    "adaptado": false
+  },
+  {
+    "archivo": "figuras/figura-04.png",
+    "fuente": "cam-lab-01-topologia-alumno.png",
+    "sha256_fuente": "bbda299e7ffbf5842f13fc6478ac3ad184638a02265fc3c0f71fa3fcdd228a7c",
+    "sha256": "bbda299e7ffbf5842f13fc6478ac3ad184638a02265fc3c0f71fa3fcdd228a7c",
+    "adaptado": false
+  },
+  {
+    "archivo": "figuras/figura-06.png",
+    "fuente": "uart-contacto-y-soldadura.png",
+    "sha256_fuente": "02144149f36bacfcab909cfa9262c9d05f9432ea6bdbec96d8e1a93a7d29b9db",
+    "sha256": "02144149f36bacfcab909cfa9262c9d05f9432ea6bdbec96d8e1a93a7d29b9db",
+    "adaptado": false
+  },
+  {
+    "archivo": "originales/figura-6-1.png",
+    "fuente": "cam-uart-01-arranque-legible.png",
+    "sha256_fuente": "604603703ad7db7b0f4693fb983177c782c4d2ba12c5d96439fa0a93a12012ab",
+    "sha256": "604603703ad7db7b0f4693fb983177c782c4d2ba12c5d96439fa0a93a12012ab",
+    "adaptado": false
+  },
+  {
+    "archivo": "originales/figura-6-2.png",
+    "fuente": "cam-uart-02-pines-soldados.png",
+    "sha256_fuente": "6ff5b687a8958b320e0798495aaaee4b9c81b033280fe844f2d69d22b329c6cc",
+    "sha256": "6ff5b687a8958b320e0798495aaaee4b9c81b033280fe844f2d69d22b329c6cc",
+    "adaptado": false
+  },
+  {
+    "archivo": "figuras/figura-07.png",
+    "fuente": "fig-uart-01-version-memoria.png",
+    "sha256_fuente": "00ab3ee1c465ffd782ee896d9be71fe5730f9b3d063f9422bcaeb0b9b53cb1fc",
+    "sha256": "00ab3ee1c465ffd782ee896d9be71fe5730f9b3d063f9422bcaeb0b9b53cb1fc",
+    "adaptado": false
+  },
+  {
+    "archivo": "figuras/figura-08.png",
+    "fuente": "fig-uart-03-lectura-crc.png",
+    "sha256_fuente": "d020b91d35182ef9cf9f26bab56d9517a1e18794b63e06c981e88c95f5880830",
+    "sha256": "d020b91d35182ef9cf9f26bab56d9517a1e18794b63e06c981e88c95f5880830",
+    "adaptado": false
+  },
+  {
+    "archivo": "figuras/figura-09.png",
+    "fuente": "fw-06-cramfs-tamanos-crc.png",
+    "sha256_fuente": "6b8f9515f6a8e841f704deb228242ea8b1b20033871eac5599bcabc8a8b36cdb",
+    "sha256": "6b8f9515f6a8e841f704deb228242ea8b1b20033871eac5599bcabc8a8b36cdb",
+    "adaptado": false
+  },
+  {
+    "archivo": "figuras/figura-10.png",
+    "fuente": "fw-07-arboles-extraidos.png",
+    "sha256_fuente": "7db05b52dd3ec7dfcc36eeffef026ea79591f0e22f0f613c6e9e2383835149b3",
+    "sha256": "7db05b52dd3ec7dfcc36eeffef026ea79591f0e22f0f613c6e9e2383835149b3",
+    "adaptado": false
+  },
+  {
+    "archivo": "figuras/figura-11.png",
+    "fuente": "cam-net-04-nmap-tcp-completo.png",
+    "sha256_fuente": "5b2913c745771741372157981febd6b2059c5cb6638cb6dd7a3efb0cda4d19e4",
+    "sha256": "5b2913c745771741372157981febd6b2059c5cb6638cb6dd7a3efb0cda4d19e4",
+    "adaptado": false
+  },
+  {
+    "archivo": "figuras/figura-12.png",
+    "fuente": "control-dvrip-captura-alumno.png",
+    "sha256_fuente": "1ae79a0a2536cfefd9b41c5f6a42d958d9e859656564d99dd130466678797b24",
+    "sha256": "1ae79a0a2536cfefd9b41c5f6a42d958d9e859656564d99dd130466678797b24",
+    "adaptado": false
+  },
+  {
+    "archivo": "figuras/figura-13.png",
+    "fuente": "2026-11-06-shell-root-com9.png",
+    "sha256_fuente": "579d5d18a31df70c92ae2dd6b34327a4aca0630fdea39a03ca8016771c10af33",
+    "sha256": "579d5d18a31df70c92ae2dd6b34327a4aca0630fdea39a03ca8016771c10af33",
+    "adaptado": false
+  },
+  {
+    "archivo": "figuras/figura-15.png",
+    "fuente": "2026-11-06-root-06-video-y-shell-com9.png",
+    "sha256_fuente": "3fca60f63cbb92752c5f7a3ee18ad6958bb3068a6d120059020a89b6fb6ff5e4",
+    "sha256": "3fca60f63cbb92752c5f7a3ee18ad6958bb3068a6d120059020a89b6fb6ff5e4",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-identificacion/cam-hw-02-apertura-cableado.jpg",
+    "fuente": "cam-hw-02-apertura-cableado.jpg",
+    "sha256_fuente": "7733f61084dc5e870b52a2142cff9bfc4cae3b546632999ee9a0ea8ea965b082",
+    "sha256": "7733f61084dc5e870b52a2142cff9bfc4cae3b546632999ee9a0ea8ea965b082",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-identificacion/cam-hw-03-montaje-lateral.jpg",
+    "fuente": "cam-hw-03-montaje-lateral.jpg",
+    "sha256_fuente": "9f5bb3707ed815272461188fae2cd31caea77599c65463da01126723c99913f4",
+    "sha256": "9f5bb3707ed815272461188fae2cd31caea77599c65463da01126723c99913f4",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-identificacion/cam-hw-04-interconexion-flex.jpg",
+    "fuente": "cam-hw-04-interconexion-flex.jpg",
+    "sha256_fuente": "fa992fb9327dd4ecb4a2f2d313a5937be602f0e967bffa1a30ffe77aa2a1077f",
+    "sha256": "fa992fb9327dd4ecb4a2f2d313a5937be602f0e967bffa1a30ffe77aa2a1077f",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-identificacion/cam-hw-05-placa-principal-conjunto.jpg",
+    "fuente": "cam-hw-05-placa-principal-conjunto.jpg",
+    "sha256_fuente": "e9a83887c2d41f9f2b70c13ebdedd9f59775c86fad3b3fe6c39a8337eac60fec",
+    "sha256": "e9a83887c2d41f9f2b70c13ebdedd9f59775c86fad3b3fe6c39a8337eac60fec",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-identificacion/cam-hw-06-placa-cara-a.jpg",
+    "fuente": "cam-hw-06-placa-cara-a.jpg",
+    "sha256_fuente": "90f349973a7a849a5111452cb65120d3cb517fd29f2417cb7fc6343ffaabde10",
+    "sha256": "90f349973a7a849a5111452cb65120d3cb517fd29f2417cb7fc6343ffaabde10",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-identificacion/cam-hw-07-placa-principal-cara-b.jpg",
+    "fuente": "cam-hw-07-placa-principal-cara-b.jpg",
+    "sha256_fuente": "78e5670824b839803d92c467eb538d80d3fa9240cca10cf5275f9c8d8cc7241c",
+    "sha256": "78e5670824b839803d92c467eb538d80d3fa9240cca10cf5275f9c8d8cc7241c",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-identificacion/cam-hw-08-placa-frontal.jpg",
+    "fuente": "cam-hw-08-placa-frontal.jpg",
+    "sha256_fuente": "f4bed88bec2d74e42ace55eea405e744bac9352cd5a0201a988d0f509268e1ab",
+    "sha256": "f4bed88bec2d74e42ace55eea405e744bac9352cd5a0201a988d0f509268e1ab",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-identificacion/cam-id-01-caja-representantes.jpg",
+    "fuente": "cam-id-01-caja-representantes.jpg",
+    "sha256_fuente": "f02ea5562148927a8657621e9d91ad4ef713c846e9ce5c8494eb699aa99fae9f",
+    "sha256": "f02ea5562148927a8657621e9d91ad4ef713c846e9ce5c8494eb699aa99fae9f",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-identificacion/cam-id-02-caja-modelo.jpg",
+    "fuente": "cam-id-02-caja-modelo.jpg",
+    "sha256_fuente": "2e46e6e23c38b33aa1b3fd76c43589ecbf508e5596ca50258372832dd08b3701",
+    "sha256": "2e46e6e23c38b33aa1b3fd76c43589ecbf508e5596ca50258372832dd08b3701",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-identificacion/cam-id-03-conectores.jpg",
+    "fuente": "cam-id-03-conectores.jpg",
+    "sha256_fuente": "06983191a8c758111b597b56eccfff28853776c7a70018ed56a5a03477a8302c",
+    "sha256": "06983191a8c758111b597b56eccfff28853776c7a70018ed56a5a03477a8302c",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-identificacion/cam-id-04-accesorios.jpg",
+    "fuente": "cam-id-04-accesorios.jpg",
+    "sha256_fuente": "b7076ea2906e00ffe4abcdf5cc4985b101f5e8a2c6468e4ed911d1acc1ee44f3",
+    "sha256": "b7076ea2906e00ffe4abcdf5cc4985b101f5e8a2c6468e4ed911d1acc1ee44f3",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-identificacion/cam-id-05-camara-exterior.png",
+    "fuente": "cam-id-05-camara-exterior.png",
+    "sha256_fuente": "fa7679868b0f565bb9d50509996614dad767d3f2ef656697cd68695aacae5baa",
+    "sha256": "fa7679868b0f565bb9d50509996614dad767d3f2ef656697cd68695aacae5baa",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-identificacion/cam-lab-01-topologia-alumno.png",
+    "fuente": "cam-lab-01-topologia-alumno.png",
+    "sha256_fuente": "bbda299e7ffbf5842f13fc6478ac3ad184638a02265fc3c0f71fa3fcdd228a7c",
+    "sha256": "bbda299e7ffbf5842f13fc6478ac3ad184638a02265fc3c0f71fa3fcdd228a7c",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/cam-web-01-aviso-navegador.png",
+    "fuente": "cam-web-01-aviso-navegador.png",
+    "sha256_fuente": "f27d41fe26bfb02ce3b8aadd71bf2423726629ef24677f165ea1b68f9c09ae22",
+    "sha256": "f27d41fe26bfb02ce3b8aadd71bf2423726629ef24677f165ea1b68f9c09ae22",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/cam-web-02-modo-ie-plugin.png",
+    "fuente": "cam-web-02-modo-ie-plugin.png",
+    "sha256_fuente": "550cdbc51e15752e0663f6127628f4ab554bf517d32c2801a79272ffd6668849",
+    "sha256": "550cdbc51e15752e0663f6127628f4ab554bf517d32c2801a79272ffd6668849",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/cam-web-03-origen-descarga.png",
+    "fuente": "cam-web-03-origen-descarga.png",
+    "sha256_fuente": "f3e93b22376fbb6d5ffc3a675e71481152877dc44c96a48d972d919dd4265b5a",
+    "sha256": "f3e93b22376fbb6d5ffc3a675e71481152877dc44c96a48d972d919dd4265b5a",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/cam-web-04-virustotal.png",
+    "fuente": "cam-web-04-virustotal.png",
+    "sha256_fuente": "1ee3a3993f9a00e2e32ed08d4764b75113510137413cdb5257548afc18636abb",
+    "sha256": "1ee3a3993f9a00e2e32ed08d4764b75113510137413cdb5257548afc18636abb",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/cam-web-05-instalador.png",
+    "fuente": "cam-web-05-instalador.png",
+    "sha256_fuente": "30b50aaa865e5d1675f29861f1578dc672eb2cc51f8583ba8862e36e53848c28",
+    "sha256": "30b50aaa865e5d1675f29861f1578dc672eb2cc51f8583ba8862e36e53848c28",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/cam-web-06-permiso-activex.png",
+    "fuente": "cam-web-06-permiso-activex.png",
+    "sha256_fuente": "7b4d76f33a9a5e0a8417e4a60f99e463761dfbd57be4b45a0a42b27f8ce0ffe6",
+    "sha256": "7b4d76f33a9a5e0a8417e4a60f99e463761dfbd57be4b45a0a42b27f8ce0ffe6",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/cam-web-07-login.png",
+    "fuente": "cam-web-07-login.png",
+    "sha256_fuente": "642e8b830d8a91c3334ecb68292c308cab4db2eadb504a7760665dcf87298b4e",
+    "sha256": "642e8b830d8a91c3334ecb68292c308cab4db2eadb504a7760665dcf87298b4e",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/cam-web-08-seleccion-flujo.png",
+    "fuente": "cam-web-08-seleccion-flujo.png",
+    "sha256_fuente": "50936ee01f4eccfa89a6dcb9b99447793aab5959187218578dab2adec73fb4d3",
+    "sha256": "50936ee01f4eccfa89a6dcb9b99447793aab5959187218578dab2adec73fb4d3",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/cam-web-09-video-directo.png",
+    "fuente": "cam-web-09-video-directo.png",
+    "sha256_fuente": "ae6165ce41a9c2d25e6b3f5874df2eb245c0a40ec2a5dd500da1fd6830515959",
+    "sha256": "ae6165ce41a9c2d25e6b3f5874df2eb245c0a40ec2a5dd500da1fd6830515959",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/login-2026-11-06/02-cookie-http.png",
+    "fuente": "02-cookie-http.png",
+    "sha256_fuente": "d78725950c8d2922bc613812cac942f0d432efd824f219242028d48ba460aa46",
+    "sha256": "d78725950c8d2922bc613812cac942f0d432efd824f219242028d48ba460aa46",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/login-2026-11-06/03-puerto-dvrip.png",
+    "fuente": "03-puerto-dvrip.png",
+    "sha256_fuente": "84163fe6b932cf663740e93e68ba269d2bc0be5536b15a2d0b8110bc234aea74",
+    "sha256": "84163fe6b932cf663740e93e68ba269d2bc0be5536b15a2d0b8110bc234aea74",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/login-2026-11-06/04-html-login.png",
+    "fuente": "04-html-login.png",
+    "sha256_fuente": "e07940ba248fd7d0ddcc88dca187e22bcbf50b0c24ca5bf53722ea64542db42f",
+    "sha256": "e07940ba248fd7d0ddcc88dca187e22bcbf50b0c24ca5bf53722ea64542db42f",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/login-2026-11-06/05-config-js.png",
+    "fuente": "05-config-js.png",
+    "sha256_fuente": "cf75bcc8fab07c6737259e8e7f0534213fc91fdffdea90d24679034171f37d5c",
+    "sha256": "cf75bcc8fab07c6737259e8e7f0534213fc91fdffdea90d24679034171f37d5c",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/login-2026-11-06/06-m-jsp.png",
+    "fuente": "06-m-jsp.png",
+    "sha256_fuente": "d6f166a3dc7acb05675ed49f6652a05a92007c76ee4e0aa9d69e95136cdba8c8",
+    "sha256": "d6f166a3dc7acb05675ed49f6652a05a92007c76ee4e0aa9d69e95136cdba8c8",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/login-2026-11-06/07-reminder-html.png",
+    "fuente": "07-reminder-html.png",
+    "sha256_fuente": "4e986dc5c43f7cde25bad1dfea0d5e1eb775bf9c4ca2e1df0262dfe3fb1a5f8d",
+    "sha256": "4e986dc5c43f7cde25bad1dfea0d5e1eb775bf9c4ca2e1df0262dfe3fb1a5f8d",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-01-inicio.jpg",
+    "fuente": "cam-ui-01-inicio.jpg",
+    "sha256_fuente": "b2b45244f2c040dbfbd0608f3e89ed9f54ae96c9a88f71ea70a7bb1db4def7ac",
+    "sha256": "b2b45244f2c040dbfbd0608f3e89ed9f54ae96c9a88f71ea70a7bb1db4def7ac",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-02-devicecfg-info.jpg",
+    "fuente": "cam-ui-02-devicecfg-info.jpg",
+    "sha256_fuente": "0f93916918ba07d37133a3ef5abffd843e2168d3a970ae2c9a5f07b10f0b505f",
+    "sha256": "0f93916918ba07d37133a3ef5abffd843e2168d3a970ae2c9a5f07b10f0b505f",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-04-system-menu.jpg",
+    "fuente": "cam-ui-04-system-menu.jpg",
+    "sha256_fuente": "c175c0b4cc6177a61bd5b2d1ff65db90675b3c8e88dccb30d06d60d18c6c1ef7",
+    "sha256": "c175c0b4cc6177a61bd5b2d1ff65db90675b3c8e88dccb30d06d60d18c6c1ef7",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-05-general-reloj.jpg",
+    "fuente": "cam-ui-05-general-reloj.jpg",
+    "sha256_fuente": "a89b982fa554874a1efe955bb9734d939a732b3aa747eee7bbe6d3258760f5b0",
+    "sha256": "a89b982fa554874a1efe955bb9734d939a732b3aa747eee7bbe6d3258760f5b0",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-06-encode.jpg",
+    "fuente": "cam-ui-06-encode.jpg",
+    "sha256_fuente": "9a06de130d9200464ab59acf92253c4986b88146635eef5f54210f9b433cd547",
+    "sha256": "9a06de130d9200464ab59acf92253c4986b88146635eef5f54210f9b433cd547",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-07-network.jpg",
+    "fuente": "cam-ui-07-network.jpg",
+    "sha256_fuente": "4d945fc82c08ff921fb5f6f32dfcc8f56357512831f303dca517d352e6b55f35",
+    "sha256": "4d945fc82c08ff921fb5f6f32dfcc8f56357512831f303dca517d352e6b55f35",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-08-netservice-menu.jpg",
+    "fuente": "cam-ui-08-netservice-menu.jpg",
+    "sha256_fuente": "4bed924d9bcc52e9fcf18f1171bae114a562f44f897c93c64b17cc6202febb86",
+    "sha256": "4bed924d9bcc52e9fcf18f1171bae114a562f44f897c93c64b17cc6202febb86",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-09-rtsp.jpg",
+    "fuente": "cam-ui-09-rtsp.jpg",
+    "sha256_fuente": "72240341cd59ebe2ad3a0962a1befaca63b95e222d6b89d41915cbdba6e4623a",
+    "sha256": "72240341cd59ebe2ad3a0962a1befaca63b95e222d6b89d41915cbdba6e4623a",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-10-cloud.jpg",
+    "fuente": "cam-ui-10-cloud.jpg",
+    "sha256_fuente": "2a29193a706176a464b305b2b99c81785ce0ef814c3f6d598d1cd07d8aa756b3",
+    "sha256": "2a29193a706176a464b305b2b99c81785ce0ef814c3f6d598d1cd07d8aa756b3",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-11-upnp.jpg",
+    "fuente": "cam-ui-11-upnp.jpg",
+    "sha256_fuente": "73413723ed38599add5d6e51962f512426dd0ec64eef1d970e75a3749d0e61e3",
+    "sha256": "73413723ed38599add5d6e51962f512426dd0ec64eef1d970e75a3749d0e61e3",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-12-ntp.jpg",
+    "fuente": "cam-ui-12-ntp.jpg",
+    "sha256_fuente": "6c919d52308954f653171d069d2db2c0695d71cc88c3b271fbf28886a3ebea9a",
+    "sha256": "6c919d52308954f653171d069d2db2c0695d71cc88c3b271fbf28886a3ebea9a",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-13-wifi.jpg",
+    "fuente": "cam-ui-13-wifi.jpg",
+    "sha256_fuente": "a4996eb5afe25ede539d723c332c5b94ffcd045247f7825563bcff7e2862bb79",
+    "sha256": "a4996eb5afe25ede539d723c332c5b94ffcd045247f7825563bcff7e2862bb79",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-14-ip-filter.jpg",
+    "fuente": "cam-ui-14-ip-filter.jpg",
+    "sha256_fuente": "5f862e9b8d54613594ceaae418e206a012d2bd06d8fb8f050dc536dda49b4962",
+    "sha256": "5f862e9b8d54613594ceaae418e206a012d2bd06d8fb8f050dc536dda49b4962",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-15-das.jpg",
+    "fuente": "cam-ui-15-das.jpg",
+    "sha256_fuente": "84cce9d7804739734a08512cfb1ec9d14a464abb6c05f36a6223841386174ac0",
+    "sha256": "84cce9d7804739734a08512cfb1ec9d14a464abb6c05f36a6223841386174ac0",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-16-app-push.jpg",
+    "fuente": "cam-ui-16-app-push.jpg",
+    "sha256_fuente": "b7f5eda6d933dd9c9835a9071359bfa5d571ac8ec6b7d25fd4597372e66dd28a",
+    "sha256": "b7f5eda6d933dd9c9835a9071359bfa5d571ac8ec6b7d25fd4597372e66dd28a",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-17-ddns.jpg",
+    "fuente": "cam-ui-17-ddns.jpg",
+    "sha256_fuente": "886042fad3e2b0c95919521d346e80fd4660c3cc9f087c5ad005deba6bfd2bdd",
+    "sha256": "886042fad3e2b0c95919521d346e80fd4660c3cc9f087c5ad005deba6bfd2bdd",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-18-email.jpg",
+    "fuente": "cam-ui-18-email.jpg",
+    "sha256_fuente": "bcfa2544275a5cd7ac8614a7d4cafc615d7680e012c24cb6bb971bdca0fe15e8",
+    "sha256": "bcfa2544275a5cd7ac8614a7d4cafc615d7680e012c24cb6bb971bdca0fe15e8",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-19-ftp.jpg",
+    "fuente": "cam-ui-19-ftp.jpg",
+    "sha256_fuente": "8b3ffafd46a61c067e8c9e17b2580d3c1f24f918952cbbc599f83bd38f2e4a84",
+    "sha256": "8b3ffafd46a61c067e8c9e17b2580d3c1f24f918952cbbc599f83bd38f2e4a84",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-20-alarmserver.jpg",
+    "fuente": "cam-ui-20-alarmserver.jpg",
+    "sha256_fuente": "70e61a07ff97a23d6ec1f425085c78a4dcd42c68292d9ea5ea5383fb7999a07c",
+    "sha256": "70e61a07ff97a23d6ec1f425085c78a4dcd42c68292d9ea5ea5383fb7999a07c",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-21-serial-passthrough.jpg",
+    "fuente": "cam-ui-21-serial-passthrough.jpg",
+    "sha256_fuente": "86b71585f171d291869149dd6886804806077d5d79ab9f0ed039b0b0bd8a8757",
+    "sha256": "86b71585f171d291869149dd6886804806077d5d79ab9f0ed039b0b0bd8a8757",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-22-camera-param.jpg",
+    "fuente": "cam-ui-22-camera-param.jpg",
+    "sha256_fuente": "a7d39909559ee4509adbae192271a0566df9775ac8da6c0eb9579d6e9859a8e6",
+    "sha256": "a7d39909559ee4509adbae192271a0566df9775ac8da6c0eb9579d6e9859a8e6",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-23-gui-display.jpg",
+    "fuente": "cam-ui-23-gui-display.jpg",
+    "sha256_fuente": "27b8ab4d000f0bd41ea908cbab6b828971f6ee86e07bfb9c3a050e268f922d1c",
+    "sha256": "27b8ab4d000f0bd41ea908cbab6b828971f6ee86e07bfb9c3a050e268f922d1c",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-24-ptz-config.jpg",
+    "fuente": "cam-ui-24-ptz-config.jpg",
+    "sha256_fuente": "165543e8258f63ee14aedada78aabc8e4dfe8f7e327d848d1a7122507ed90a7b",
+    "sha256": "165543e8258f63ee14aedada78aabc8e4dfe8f7e327d848d1a7122507ed90a7b",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-25-rs232.jpg",
+    "fuente": "cam-ui-25-rs232.jpg",
+    "sha256_fuente": "a5cf1c7c33ee965ba0af6f1fd2c1ecbdc36f2b258f58c4c4bfcce14d9f1c3a79",
+    "sha256": "a5cf1c7c33ee965ba0af6f1fd2c1ecbdc36f2b258f58c4c4bfcce14d9f1c3a79",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-26-advanced-menu.jpg",
+    "fuente": "cam-ui-26-advanced-menu.jpg",
+    "sha256_fuente": "8247592e97bc04ffd2dad078569279a47f8af2c14c3b09ac7e43b752c681b9a0",
+    "sha256": "8247592e97bc04ffd2dad078569279a47f8af2c14c3b09ac7e43b752c681b9a0",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-27-account.jpg",
+    "fuente": "cam-ui-27-account.jpg",
+    "sha256_fuente": "8ee3e81396941e97e7279029917cf28124b9a5933d81645a9af6a743a45eb233",
+    "sha256": "8ee3e81396941e97e7279029917cf28124b9a5933d81645a9af6a743a45eb233",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-28-auto-maintain.jpg",
+    "fuente": "cam-ui-28-auto-maintain.jpg",
+    "sha256_fuente": "8231e4bfd4d1fb4e68e2988f81930666ee928c21a46f3d377dcb7f8e1916e5c9",
+    "sha256": "8231e4bfd4d1fb4e68e2988f81930666ee928c21a46f3d377dcb7f8e1916e5c9",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-29-upgrade.jpg",
+    "fuente": "cam-ui-29-upgrade.jpg",
+    "sha256_fuente": "11222fd28233180975dbd71c573faf0523ea7c96bb5a449ddd2700d965d27ccd",
+    "sha256": "11222fd28233180975dbd71c573faf0523ea7c96bb5a449ddd2700d965d27ccd",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-30-hdd-manage.jpg",
+    "fuente": "cam-ui-30-hdd-manage.jpg",
+    "sha256_fuente": "6c6ebc1cb685bf8b1f2ad5c69bc8c1d61cd29ce3e2b1ebf04ad65bc8d6918db8",
+    "sha256": "6c6ebc1cb685bf8b1f2ad5c69bc8c1d61cd29ce3e2b1ebf04ad65bc8d6918db8",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-31-import-export.jpg",
+    "fuente": "cam-ui-31-import-export.jpg",
+    "sha256_fuente": "7738f425e289a3ef23ab075680edb9b7bed0899b4f6feca28b3b98629cad7e05",
+    "sha256": "7738f425e289a3ef23ab075680edb9b7bed0899b4f6feca28b3b98629cad7e05",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-32-record-menu.jpg",
+    "fuente": "cam-ui-32-record-menu.jpg",
+    "sha256_fuente": "cc42af37ac7fe832e6847602415f8642902170cb4f7298748e8b2d35236b0e3f",
+    "sha256": "cc42af37ac7fe832e6847602415f8642902170cb4f7298748e8b2d35236b0e3f",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-33-record-schedule.jpg",
+    "fuente": "cam-ui-33-record-schedule.jpg",
+    "sha256_fuente": "a8376da3fe59bafe5ae2707d89ca30b6109f4d8b05796ab23dbc02a1a5d348cf",
+    "sha256": "a8376da3fe59bafe5ae2707d89ca30b6109f4d8b05796ab23dbc02a1a5d348cf",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-34-snapshot-schedule.jpg",
+    "fuente": "cam-ui-34-snapshot-schedule.jpg",
+    "sha256_fuente": "656b7bc999c848e901c2419e708fb74385f81e0383b412c9877b429c85ab65ea",
+    "sha256": "656b7bc999c848e901c2419e708fb74385f81e0383b412c9877b429c85ab65ea",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-35-alarm-menu.jpg",
+    "fuente": "cam-ui-35-alarm-menu.jpg",
+    "sha256_fuente": "5c124dd15cf70e1ed44f44bf1ceeb042139aa24f615fc47d6ba1b4d56dc35857",
+    "sha256": "5c124dd15cf70e1ed44f44bf1ceeb042139aa24f615fc47d6ba1b4d56dc35857",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-36-intelligent-alert.jpg",
+    "fuente": "cam-ui-36-intelligent-alert.jpg",
+    "sha256_fuente": "44ca6bb6419a4d0df9ac3ef4f3a8be5d6ab80b3e62c26615106a79721a4b0470",
+    "sha256": "44ca6bb6419a4d0df9ac3ef4f3a8be5d6ab80b3e62c26615106a79721a4b0470",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-37-abnormal-storage.jpg",
+    "fuente": "cam-ui-37-abnormal-storage.jpg",
+    "sha256_fuente": "bef1d68126bd5cfb3ebeee02bb1544b9acee4083a3a6d9815ff6253b3bbbdedf",
+    "sha256": "bef1d68126bd5cfb3ebeee02bb1544b9acee4083a3a6d9815ff6253b3bbbdedf",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-38-video-blind.jpg",
+    "fuente": "cam-ui-38-video-blind.jpg",
+    "sha256_fuente": "5690e34afb02430fed2c3f5834121d32c471e6c59603de0859924cfb25933831",
+    "sha256": "5690e34afb02430fed2c3f5834121d32c471e6c59603de0859924cfb25933831",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-39-video-loss.jpg",
+    "fuente": "cam-ui-39-video-loss.jpg",
+    "sha256_fuente": "4c6db1ad7ddbfe5d778ea99febb4a35cda9c6f3dc81c68fa1406a78bf70feb51",
+    "sha256": "4c6db1ad7ddbfe5d778ea99febb4a35cda9c6f3dc81c68fa1406a78bf70feb51",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-40-log-search.jpg",
+    "fuente": "cam-ui-40-log-search.jpg",
+    "sha256_fuente": "baca2124c043e5579380af31872adc63dd25a4b0c010be42a074c11e0fc16d67",
+    "sha256": "baca2124c043e5579380af31872adc63dd25a4b0c010be42a074c11e0fc16d67",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-41-client-log.jpg",
+    "fuente": "cam-ui-41-client-log.jpg",
+    "sha256_fuente": "2f99483aafdabaa7a270f56da04fb1c39d8f59e14e0bfb8b940ed9427f1d3415",
+    "sha256": "2f99483aafdabaa7a270f56da04fb1c39d8f59e14e0bfb8b940ed9427f1d3415",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-42-localcfg-about.jpg",
+    "fuente": "cam-ui-42-localcfg-about.jpg",
+    "sha256_fuente": "8d64667d3250174b6c1b43504148cda71634200120291271bcf718c5c3b2ebff",
+    "sha256": "8d64667d3250174b6c1b43504148cda71634200120291271bcf718c5c3b2ebff",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-43-localcfg-system.jpg",
+    "fuente": "cam-ui-43-localcfg-system.jpg",
+    "sha256_fuente": "ec4a7eaff1839630cd2d79fc9d8e96220001b9fbd3d850d69bc5a45d40917303",
+    "sha256": "ec4a7eaff1839630cd2d79fc9d8e96220001b9fbd3d850d69bc5a45d40917303",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-44-playback.jpg",
+    "fuente": "cam-ui-44-playback.jpg",
+    "sha256_fuente": "7717024b21f10df62fade1d183be1c846e98d75ff71c90ae941c4766234ee790",
+    "sha256": "7717024b21f10df62fade1d183be1c846e98d75ff71c90ae941c4766234ee790",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-video/revision-0030.jpg",
+    "fuente": "revision-0030.jpg",
+    "sha256_fuente": "ef573728c466c88260cfcd829ee3b15ef234918f305eac1e9855c855d30d03c7",
+    "sha256": "ef573728c466c88260cfcd829ee3b15ef234918f305eac1e9855c855d30d03c7",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-video/revision-0200.jpg",
+    "fuente": "revision-0200.jpg",
+    "sha256_fuente": "7df8dcb29dc3cc71d186cacf0312ff2526c6ab553afe5f183de5d291df2b3e10",
+    "sha256": "7df8dcb29dc3cc71d186cacf0312ff2526c6ab553afe5f183de5d291df2b3e10",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-video/revision-0340.jpg",
+    "fuente": "revision-0340.jpg",
+    "sha256_fuente": "0df16cf49a305b61c86399ffa64083df8f487f46efe386a52eb77fa26f11e072",
+    "sha256": "0df16cf49a305b61c86399ffa64083df8f487f46efe386a52eb77fa26f11e072",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-red/cam-net-01-nmap.png",
+    "fuente": "cam-net-01-nmap.png",
+    "sha256_fuente": "e9b1984b0db6f4f876624f6d667e8eb99280641a0221eebb8d66b159ff320fbc",
+    "sha256": "e9b1984b0db6f4f876624f6d667e8eb99280641a0221eebb8d66b159ff320fbc",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-red/cam-net-02-web-plugin.png",
+    "fuente": "cam-net-02-web-plugin.png",
+    "sha256_fuente": "edbb159ac8e1afca460ee3e8affaed7a052e51123e987382fdb7b15f0e587fd6",
+    "sha256": "edbb159ac8e1afca460ee3e8affaed7a052e51123e987382fdb7b15f0e587fd6",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-red/cam-net-04-nmap-tcp-completo.png",
+    "fuente": "cam-net-04-nmap-tcp-completo.png",
+    "sha256_fuente": "5b2913c745771741372157981febd6b2059c5cb6638cb6dd7a3efb0cda4d19e4",
+    "sha256": "5b2913c745771741372157981febd6b2059c5cb6638cb6dd7a3efb0cda4d19e4",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-uart/2026-11-06-root-06-video-y-shell-com9.png",
+    "fuente": "2026-11-06-root-06-video-y-shell-com9.png",
+    "sha256_fuente": "3fca60f63cbb92752c5f7a3ee18ad6958bb3068a6d120059020a89b6fb6ff5e4",
+    "sha256": "3fca60f63cbb92752c5f7a3ee18ad6958bb3068a6d120059020a89b6fb6ff5e4",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-uart/2026-11-06-shell-root-com9.png",
+    "fuente": "2026-11-06-shell-root-com9.png",
+    "sha256_fuente": "579d5d18a31df70c92ae2dd6b34327a4aca0630fdea39a03ca8016771c10af33",
+    "sha256": "579d5d18a31df70c92ae2dd6b34327a4aca0630fdea39a03ca8016771c10af33",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-uart/cam-uart-01-arranque-legible.png",
+    "fuente": "cam-uart-01-arranque-legible.png",
+    "sha256_fuente": "604603703ad7db7b0f4693fb983177c782c4d2ba12c5d96439fa0a93a12012ab",
+    "sha256": "604603703ad7db7b0f4693fb983177c782c4d2ba12c5d96439fa0a93a12012ab",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-uart/cam-uart-02-pines-soldados.png",
+    "fuente": "cam-uart-02-pines-soldados.png",
+    "sha256_fuente": "6ff5b687a8958b320e0798495aaaee4b9c81b033280fe844f2d69d22b329c6cc",
+    "sha256": "6ff5b687a8958b320e0798495aaaee4b9c81b033280fe844f2d69d22b329c6cc",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-uart/fig-uart-01-version-memoria.png",
+    "fuente": "fig-uart-01-version-memoria.png",
+    "sha256_fuente": "00ab3ee1c465ffd782ee896d9be71fe5730f9b3d063f9422bcaeb0b9b53cb1fc",
+    "sha256": "00ab3ee1c465ffd782ee896d9be71fe5730f9b3d063f9422bcaeb0b9b53cb1fc",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-uart/fig-uart-02-mapa-user.png",
+    "fuente": "fig-uart-02-mapa-user.png",
+    "sha256_fuente": "1d285d2136fe7a154cb6acaf171bdb62e0763efc4ecf1e0d62b0c3e843da5d90",
+    "sha256": "1d285d2136fe7a154cb6acaf171bdb62e0763efc4ecf1e0d62b0c3e843da5d90",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-uart/fig-uart-03-lectura-crc.png",
+    "fuente": "fig-uart-03-lectura-crc.png",
+    "sha256_fuente": "d020b91d35182ef9cf9f26bab56d9517a1e18794b63e06c981e88c95f5880830",
+    "sha256": "d020b91d35182ef9cf9f26bab56d9517a1e18794b63e06c981e88c95f5880830",
+    "adaptado": false
+  },
+  {
+    "archivo": "galeria/evidencias-uart/fig-uart-04-piloto.png",
+    "fuente": "fig-uart-04-piloto.png",
+    "sha256_fuente": "c65ce659379521caa855465a80335accc23b0f2fb24ae0f558f8162f5a1563ad",
+    "sha256": "c65ce659379521caa855465a80335accc23b0f2fb24ae0f558f8162f5a1563ad",
+    "adaptado": false
+  },
+  {
+    "archivo": "scripts/captura-uart.ps1",
+    "fuente": "captura-uart.ps1",
+    "sha256_fuente": "2fdd155e696bf85346a98aab20e79a5d194d602fc8402fbce249a4c1be671fd2",
+    "sha256": "2fdd155e696bf85346a98aab20e79a5d194d602fc8402fbce249a4c1be671fd2",
+    "adaptado": true
+  },
+  {
+    "archivo": "scripts/completar-uart.ps1",
+    "fuente": "completar-uart.ps1",
+    "sha256_fuente": "5a6df9a2dbf60898bfb890336bfef8476a59f05bfe2e17313016ce4f7f44d96b",
+    "sha256": "99590deb233be327ddcbe9af11075e574453e9e84cf041a605154088dba38097",
+    "adaptado": true
+  },
+  {
+    "archivo": "scripts/verificar-dump-uboot.cjs",
+    "fuente": "verificar-dump-uboot.cjs",
+    "sha256_fuente": "0988560d22a63f35c72b2034eb1534f634ba7e1453eb9bc0e17d9c164c55cffd",
+    "sha256": "cec83ba898a1c9904d5afe59586e0ed057445be857c54d25d6489333dfc62cca",
+    "adaptado": true
+  },
+  {
+    "archivo": "scripts/inventariar-regiones-firmware.cjs",
+    "fuente": "inventariar-regiones-firmware.cjs",
+    "sha256_fuente": "89ebd1d9c42a250be7747418af5f075e04df1a9c2e6cdb7818dec2d84fa70427",
+    "sha256": "89ebd1d9c42a250be7747418af5f075e04df1a9c2e6cdb7818dec2d84fa70427",
+    "adaptado": true
+  },
+  {
+    "archivo": "scripts/tmic-root06-xm530.py",
+    "fuente": "tmic-root06-xm530.py",
+    "sha256_fuente": "447ad15eacfa7d4ce1b0c697ccbb4581b825a8ebee02d649a09110f3f24a0168",
+    "sha256": "dd2fb50b7817b078d0099619610554b10b1ed3c79ac0ec3731a2cb8eb7207716",
+    "adaptado": true
+  },
+  {
+    "archivo": "datos/nmap-servicios.txt",
+    "fuente": "cam-net-03-nmap-servicios-transcripcion.txt",
+    "sha256_fuente": "f5e1d46627bfe7e80dbe74da3a58637f98b0c41b3f1a9504190b2c2812001c09",
+    "sha256": "f5e1d46627bfe7e80dbe74da3a58637f98b0c41b3f1a9504190b2c2812001c09",
+    "adaptado": true
+  }
+]

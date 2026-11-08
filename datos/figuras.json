@@ -1,0 +1,77 @@
+[
+  {
+    "numero": 1,
+    "titulo": "Identidad exterior y conexiones",
+    "archivo": "figuras/figura-01.png"
+  },
+  {
+    "numero": 2,
+    "titulo": "Placa principal: ambas caras",
+    "archivo": "figuras/figura-02.png"
+  },
+  {
+    "numero": 3,
+    "titulo": "Placa frontal e interconexiones del conjunto óptico",
+    "archivo": "figuras/figura-03.jpg"
+  },
+  {
+    "numero": 4,
+    "titulo": "Diagrama del laboratorio aportado por el alumno",
+    "archivo": "figuras/figura-04.png"
+  },
+  {
+    "numero": 5,
+    "titulo": "Arquitectura",
+    "archivo": "figuras/figura-5.mmd"
+  },
+  {
+    "numero": 6,
+    "titulo": "De la recepción por contacto al montaje soldado",
+    "archivo": "figuras/figura-06.png"
+  },
+  {
+    "numero": 7,
+    "titulo": "Versión y parámetros de memoria en U-Boot",
+    "archivo": "figuras/figura-07.png"
+  },
+  {
+    "numero": 8,
+    "titulo": "Lectura de flash a RAM y CRC32",
+    "archivo": "figuras/figura-08.png"
+  },
+  {
+    "numero": 9,
+    "titulo": "Validación manual de CramFS y CRC",
+    "archivo": "figuras/figura-09.png"
+  },
+  {
+    "numero": 10,
+    "titulo": "Árboles extraídos de cuatro particiones",
+    "archivo": "figuras/figura-10.png"
+  },
+  {
+    "numero": 11,
+    "titulo": "Escaneo de todos los puertos TCP",
+    "archivo": "figuras/figura-11.png"
+  },
+  {
+    "numero": 12,
+    "titulo": "Control y comienzo de los medios en DVRIP",
+    "archivo": "figuras/figura-12.png"
+  },
+  {
+    "numero": 13,
+    "titulo": "Credenciales del proceso en la shell temprana",
+    "archivo": "figuras/figura-13.png"
+  },
+  {
+    "numero": 14,
+    "titulo": "Montajes temporales",
+    "archivo": "figuras/figura-14.mmd"
+  },
+  {
+    "numero": 15,
+    "titulo": "Shell root y cámara operativa al mismo tiempo",
+    "archivo": "figuras/figura-15.png"
+  }
+]

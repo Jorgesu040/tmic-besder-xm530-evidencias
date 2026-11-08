@@ -1,0 +1,660 @@
+{
+  "preparado": "2026-11-09",
+  "archivos": [
+    {
+      "archivo": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "archivo": ".gitignore",
+      "bytes": 301,
+      "sha256": "74ff08125c375a61f82ba1bf899883bb5686fa45994e3b1d527af81fb3cd94c3"
+    },
+    {
+      "archivo": "capturas/Flujo_cargar_pagina_login_incorrecto_y_correcto-saneado.pcapng",
+      "bytes": 573820,
+      "sha256": "188ac31d27bd6d26e25b8c909ef7037159777eb22a1a4c0930b9a5d0a799a701"
+    },
+    {
+      "archivo": "capturas/Flujo_cargar_pagina_login_incorrecto_y_correcto.pcapng",
+      "bytes": 592468,
+      "sha256": "74b207fa7405b0a179134a7eb599c81f48ec98c6227ea7505d64ec37a95529ef"
+    },
+    {
+      "archivo": "capturas/Interaccion_camara_interfaz-saneado.pcapng",
+      "bytes": 184768,
+      "sha256": "c76e566c146f99058a73f19980c03a8a742369d13d261cec19c17d1cd3c58577"
+    },
+    {
+      "archivo": "capturas/Interaccion_camara_interfaz.pcapng",
+      "bytes": 194800,
+      "sha256": "78cff5feceb21e54ffda5f06eb12f789bfe042f32bbae486f73beb91f1418640"
+    },
+    {
+      "archivo": "capturas/procedencia-saneado.json",
+      "bytes": 1762,
+      "sha256": "3efa018b6f3d8d5b39a39687a738dd3a22dddb20076ebc385ebc7799f3cbeb1a"
+    },
+    {
+      "archivo": "datos/capturas-originales-locales.json",
+      "bytes": 721,
+      "sha256": "337b44808242e2fb47e42fe8d3d9e187720ac40074c850e37e6e08550c89b0f4"
+    },
+    {
+      "archivo": "datos/figuras.json",
+      "bytes": 1802,
+      "sha256": "8ff853e613d7fb47d0087e3143c19cf87121e1a2326b94aebef2f5144137344d"
+    },
+    {
+      "archivo": "datos/inventario-particiones.json",
+      "bytes": 4064,
+      "sha256": "6bdb89c7a000e93829b051d56a1a676724272238cc02f4b248651700a24779e2"
+    },
+    {
+      "archivo": "datos/nmap-servicios.txt",
+      "bytes": 8594,
+      "sha256": "f5e1d46627bfe7e80dbe74da3a58637f98b0c41b3f1a9504190b2c2812001c09"
+    },
+    {
+      "archivo": "docs/adquisicion.md",
+      "bytes": 821,
+      "sha256": "0c55ef0e5f7ba65c6547d37c950d806cc073e0bb5dfb5f90470378a27ba6aba0"
+    },
+    {
+      "archivo": "docs/material-pendiente.md",
+      "bytes": 614,
+      "sha256": "8976bdbe40d61c06ea51e323f0dfba3180280205ce30e790556e1171ffcb1433"
+    },
+    {
+      "archivo": "docs/red.md",
+      "bytes": 961,
+      "sha256": "08b070917fa79c6cb4cb6bb3032c517220d2d8e89321e85da3a447cbaec3f066"
+    },
+    {
+      "archivo": "docs/uart-root.md",
+      "bytes": 1206,
+      "sha256": "0e1615d69cf7675877f750e224ccedaa0a20b8d9222986103771b4b9a9312e4a"
+    },
+    {
+      "archivo": "figuras/figura-01.png",
+      "bytes": 1933870,
+      "sha256": "17bd7b581f87451db32167a7ac3e18238c9d5b6279182bd959e8ed1e532281d6"
+    },
+    {
+      "archivo": "figuras/figura-02.png",
+      "bytes": 3227433,
+      "sha256": "d84bbfbf689122938dc1b29e9c1777758b2a8cdaccc752428f2c793399b8fcde"
+    },
+    {
+      "archivo": "figuras/figura-03.jpg",
+      "bytes": 6189751,
+      "sha256": "f4bed88bec2d74e42ace55eea405e744bac9352cd5a0201a988d0f509268e1ab"
+    },
+    {
+      "archivo": "figuras/figura-04.png",
+      "bytes": 5697461,
+      "sha256": "bbda299e7ffbf5842f13fc6478ac3ad184638a02265fc3c0f71fa3fcdd228a7c"
+    },
+    {
+      "archivo": "figuras/figura-06.png",
+      "bytes": 1247584,
+      "sha256": "02144149f36bacfcab909cfa9262c9d05f9432ea6bdbec96d8e1a93a7d29b9db"
+    },
+    {
+      "archivo": "figuras/figura-07.png",
+      "bytes": 162735,
+      "sha256": "00ab3ee1c465ffd782ee896d9be71fe5730f9b3d063f9422bcaeb0b9b53cb1fc"
+    },
+    {
+      "archivo": "figuras/figura-08.png",
+      "bytes": 192402,
+      "sha256": "d020b91d35182ef9cf9f26bab56d9517a1e18794b63e06c981e88c95f5880830"
+    },
+    {
+      "archivo": "figuras/figura-09.png",
+      "bytes": 235180,
+      "sha256": "6b8f9515f6a8e841f704deb228242ea8b1b20033871eac5599bcabc8a8b36cdb"
+    },
+    {
+      "archivo": "figuras/figura-10.png",
+      "bytes": 195417,
+      "sha256": "7db05b52dd3ec7dfcc36eeffef026ea79591f0e22f0f613c6e9e2383835149b3"
+    },
+    {
+      "archivo": "figuras/figura-11.png",
+      "bytes": 238624,
+      "sha256": "5b2913c745771741372157981febd6b2059c5cb6638cb6dd7a3efb0cda4d19e4"
+    },
+    {
+      "archivo": "figuras/figura-12.png",
+      "bytes": 180985,
+      "sha256": "1ae79a0a2536cfefd9b41c5f6a42d958d9e859656564d99dd130466678797b24"
+    },
+    {
+      "archivo": "figuras/figura-13.png",
+      "bytes": 108135,
+      "sha256": "579d5d18a31df70c92ae2dd6b34327a4aca0630fdea39a03ca8016771c10af33"
+    },
+    {
+      "archivo": "figuras/figura-14.mmd",
+      "bytes": 442,
+      "sha256": "b27c3aec57f5630faf05d718244868976ccaeb6c8ba570ecf62e71b06e8fba1f"
+    },
+    {
+      "archivo": "figuras/figura-15.png",
+      "bytes": 832567,
+      "sha256": "3fca60f63cbb92752c5f7a3ee18ad6958bb3068a6d120059020a89b6fb6ff5e4"
+    },
+    {
+      "archivo": "figuras/figura-5.mmd",
+      "bytes": 413,
+      "sha256": "27f6d5a3fa28021acb6ca13370afba78f003c0d9c4bb0bba4a5004f238e609c1"
+    },
+    {
+      "archivo": "galeria/evidencias-identificacion/cam-hw-02-apertura-cableado.jpg",
+      "bytes": 5891869,
+      "sha256": "7733f61084dc5e870b52a2142cff9bfc4cae3b546632999ee9a0ea8ea965b082"
+    },
+    {
+      "archivo": "galeria/evidencias-identificacion/cam-hw-03-montaje-lateral.jpg",
+      "bytes": 6308615,
+      "sha256": "9f5bb3707ed815272461188fae2cd31caea77599c65463da01126723c99913f4"
+    },
+    {
+      "archivo": "galeria/evidencias-identificacion/cam-hw-04-interconexion-flex.jpg",
+      "bytes": 4891481,
+      "sha256": "fa992fb9327dd4ecb4a2f2d313a5937be602f0e967bffa1a30ffe77aa2a1077f"
+    },
+    {
+      "archivo": "galeria/evidencias-identificacion/cam-hw-05-placa-principal-conjunto.jpg",
+      "bytes": 6310401,
+      "sha256": "e9a83887c2d41f9f2b70c13ebdedd9f59775c86fad3b3fe6c39a8337eac60fec"
+    },
+    {
+      "archivo": "galeria/evidencias-identificacion/cam-hw-06-placa-cara-a.jpg",
+      "bytes": 6669287,
+      "sha256": "90f349973a7a849a5111452cb65120d3cb517fd29f2417cb7fc6343ffaabde10"
+    },
+    {
+      "archivo": "galeria/evidencias-identificacion/cam-hw-07-placa-principal-cara-b.jpg",
+      "bytes": 6659211,
+      "sha256": "78e5670824b839803d92c467eb538d80d3fa9240cca10cf5275f9c8d8cc7241c"
+    },
+    {
+      "archivo": "galeria/evidencias-identificacion/cam-hw-08-placa-frontal.jpg",
+      "bytes": 6189751,
+      "sha256": "f4bed88bec2d74e42ace55eea405e744bac9352cd5a0201a988d0f509268e1ab"
+    },
+    {
+      "archivo": "galeria/evidencias-identificacion/cam-id-01-caja-representantes.jpg",
+      "bytes": 371826,
+      "sha256": "f02ea5562148927a8657621e9d91ad4ef713c846e9ce5c8494eb699aa99fae9f"
+    },
+    {
+      "archivo": "galeria/evidencias-identificacion/cam-id-02-caja-modelo.jpg",
+      "bytes": 327879,
+      "sha256": "2e46e6e23c38b33aa1b3fd76c43589ecbf508e5596ca50258372832dd08b3701"
+    },
+    {
+      "archivo": "galeria/evidencias-identificacion/cam-id-03-conectores.jpg",
+      "bytes": 245146,
+      "sha256": "06983191a8c758111b597b56eccfff28853776c7a70018ed56a5a03477a8302c"
+    },
+    {
+      "archivo": "galeria/evidencias-identificacion/cam-id-04-accesorios.jpg",
+      "bytes": 962806,
+      "sha256": "b7076ea2906e00ffe4abcdf5cc4985b101f5e8a2c6468e4ed911d1acc1ee44f3"
+    },
+    {
+      "archivo": "galeria/evidencias-identificacion/cam-id-05-camara-exterior.png",
+      "bytes": 1065998,
+      "sha256": "fa7679868b0f565bb9d50509996614dad767d3f2ef656697cd68695aacae5baa"
+    },
+    {
+      "archivo": "galeria/evidencias-identificacion/cam-lab-01-topologia-alumno.png",
+      "bytes": 5697461,
+      "sha256": "bbda299e7ffbf5842f13fc6478ac3ad184638a02265fc3c0f71fa3fcdd228a7c"
+    },
+    {
+      "archivo": "galeria/evidencias-red/cam-net-01-nmap.png",
+      "bytes": 45035,
+      "sha256": "e9b1984b0db6f4f876624f6d667e8eb99280641a0221eebb8d66b159ff320fbc"
+    },
+    {
+      "archivo": "galeria/evidencias-red/cam-net-02-web-plugin.png",
+      "bytes": 134153,
+      "sha256": "edbb159ac8e1afca460ee3e8affaed7a052e51123e987382fdb7b15f0e587fd6"
+    },
+    {
+      "archivo": "galeria/evidencias-red/cam-net-04-nmap-tcp-completo.png",
+      "bytes": 238624,
+      "sha256": "5b2913c745771741372157981febd6b2059c5cb6638cb6dd7a3efb0cda4d19e4"
+    },
+    {
+      "archivo": "galeria/evidencias-uart/2026-11-06-root-06-video-y-shell-com9.png",
+      "bytes": 832567,
+      "sha256": "3fca60f63cbb92752c5f7a3ee18ad6958bb3068a6d120059020a89b6fb6ff5e4"
+    },
+    {
+      "archivo": "galeria/evidencias-uart/2026-11-06-shell-root-com9.png",
+      "bytes": 108135,
+      "sha256": "579d5d18a31df70c92ae2dd6b34327a4aca0630fdea39a03ca8016771c10af33"
+    },
+    {
+      "archivo": "galeria/evidencias-uart/cam-uart-01-arranque-legible.png",
+      "bytes": 72744,
+      "sha256": "604603703ad7db7b0f4693fb983177c782c4d2ba12c5d96439fa0a93a12012ab"
+    },
+    {
+      "archivo": "galeria/evidencias-uart/cam-uart-02-pines-soldados.png",
+      "bytes": 1531018,
+      "sha256": "6ff5b687a8958b320e0798495aaaee4b9c81b033280fe844f2d69d22b329c6cc"
+    },
+    {
+      "archivo": "galeria/evidencias-uart/fig-uart-01-version-memoria.png",
+      "bytes": 162735,
+      "sha256": "00ab3ee1c465ffd782ee896d9be71fe5730f9b3d063f9422bcaeb0b9b53cb1fc"
+    },
+    {
+      "archivo": "galeria/evidencias-uart/fig-uart-02-mapa-user.png",
+      "bytes": 224512,
+      "sha256": "1d285d2136fe7a154cb6acaf171bdb62e0763efc4ecf1e0d62b0c3e843da5d90"
+    },
+    {
+      "archivo": "galeria/evidencias-uart/fig-uart-03-lectura-crc.png",
+      "bytes": 192402,
+      "sha256": "d020b91d35182ef9cf9f26bab56d9517a1e18794b63e06c981e88c95f5880830"
+    },
+    {
+      "archivo": "galeria/evidencias-uart/fig-uart-04-piloto.png",
+      "bytes": 469042,
+      "sha256": "c65ce659379521caa855465a80335accc23b0f2fb24ae0f558f8162f5a1563ad"
+    },
+    {
+      "archivo": "galeria/evidencias-video/revision-0030.jpg",
+      "bytes": 28678,
+      "sha256": "ef573728c466c88260cfcd829ee3b15ef234918f305eac1e9855c855d30d03c7"
+    },
+    {
+      "archivo": "galeria/evidencias-video/revision-0200.jpg",
+      "bytes": 36526,
+      "sha256": "7df8dcb29dc3cc71d186cacf0312ff2526c6ab553afe5f183de5d291df2b3e10"
+    },
+    {
+      "archivo": "galeria/evidencias-video/revision-0340.jpg",
+      "bytes": 29224,
+      "sha256": "0df16cf49a305b61c86399ffa64083df8f487f46efe386a52eb77fa26f11e072"
+    },
+    {
+      "archivo": "galeria/evidencias-web/cam-web-01-aviso-navegador.png",
+      "bytes": 47938,
+      "sha256": "f27d41fe26bfb02ce3b8aadd71bf2423726629ef24677f165ea1b68f9c09ae22"
+    },
+    {
+      "archivo": "galeria/evidencias-web/cam-web-02-modo-ie-plugin.png",
+      "bytes": 64947,
+      "sha256": "550cdbc51e15752e0663f6127628f4ab554bf517d32c2801a79272ffd6668849"
+    },
+    {
+      "archivo": "galeria/evidencias-web/cam-web-03-origen-descarga.png",
+      "bytes": 39990,
+      "sha256": "f3e93b22376fbb6d5ffc3a675e71481152877dc44c96a48d972d919dd4265b5a"
+    },
+    {
+      "archivo": "galeria/evidencias-web/cam-web-04-virustotal.png",
+      "bytes": 107819,
+      "sha256": "1ee3a3993f9a00e2e32ed08d4764b75113510137413cdb5257548afc18636abb"
+    },
+    {
+      "archivo": "galeria/evidencias-web/cam-web-05-instalador.png",
+      "bytes": 177433,
+      "sha256": "30b50aaa865e5d1675f29861f1578dc672eb2cc51f8583ba8862e36e53848c28"
+    },
+    {
+      "archivo": "galeria/evidencias-web/cam-web-06-permiso-activex.png",
+      "bytes": 24872,
+      "sha256": "7b4d76f33a9a5e0a8417e4a60f99e463761dfbd57be4b45a0a42b27f8ce0ffe6"
+    },
+    {
+      "archivo": "galeria/evidencias-web/cam-web-07-login.png",
+      "bytes": 155401,
+      "sha256": "642e8b830d8a91c3334ecb68292c308cab4db2eadb504a7760665dcf87298b4e"
+    },
+    {
+      "archivo": "galeria/evidencias-web/cam-web-08-seleccion-flujo.png",
+      "bytes": 249654,
+      "sha256": "50936ee01f4eccfa89a6dcb9b99447793aab5959187218578dab2adec73fb4d3"
+    },
+    {
+      "archivo": "galeria/evidencias-web/cam-web-09-video-directo.png",
+      "bytes": 1685414,
+      "sha256": "ae6165ce41a9c2d25e6b3f5874df2eb245c0a40ec2a5dd500da1fd6830515959"
+    },
+    {
+      "archivo": "galeria/evidencias-web/login-2026-11-06/02-cookie-http.png",
+      "bytes": 210996,
+      "sha256": "d78725950c8d2922bc613812cac942f0d432efd824f219242028d48ba460aa46"
+    },
+    {
+      "archivo": "galeria/evidencias-web/login-2026-11-06/03-puerto-dvrip.png",
+      "bytes": 12796,
+      "sha256": "84163fe6b932cf663740e93e68ba269d2bc0be5536b15a2d0b8110bc234aea74"
+    },
+    {
+      "archivo": "galeria/evidencias-web/login-2026-11-06/04-html-login.png",
+      "bytes": 107970,
+      "sha256": "e07940ba248fd7d0ddcc88dca187e22bcbf50b0c24ca5bf53722ea64542db42f"
+    },
+    {
+      "archivo": "galeria/evidencias-web/login-2026-11-06/05-config-js.png",
+      "bytes": 116582,
+      "sha256": "cf75bcc8fab07c6737259e8e7f0534213fc91fdffdea90d24679034171f37d5c"
+    },
+    {
+      "archivo": "galeria/evidencias-web/login-2026-11-06/06-m-jsp.png",
+      "bytes": 398579,
+      "sha256": "d6f166a3dc7acb05675ed49f6652a05a92007c76ee4e0aa9d69e95136cdba8c8"
+    },
+    {
+      "archivo": "galeria/evidencias-web/login-2026-11-06/07-reminder-html.png",
+      "bytes": 59883,
+      "sha256": "4e986dc5c43f7cde25bad1dfea0d5e1eb775bf9c4ca2e1df0262dfe3fb1a5f8d"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-01-inicio.jpg",
+      "bytes": 98396,
+      "sha256": "b2b45244f2c040dbfbd0608f3e89ed9f54ae96c9a88f71ea70a7bb1db4def7ac"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-02-devicecfg-info.jpg",
+      "bytes": 99085,
+      "sha256": "0f93916918ba07d37133a3ef5abffd843e2168d3a970ae2c9a5f07b10f0b505f"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-04-system-menu.jpg",
+      "bytes": 102993,
+      "sha256": "c175c0b4cc6177a61bd5b2d1ff65db90675b3c8e88dccb30d06d60d18c6c1ef7"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-05-general-reloj.jpg",
+      "bytes": 112372,
+      "sha256": "a89b982fa554874a1efe955bb9734d939a732b3aa747eee7bbe6d3258760f5b0"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-06-encode.jpg",
+      "bytes": 116270,
+      "sha256": "9a06de130d9200464ab59acf92253c4986b88146635eef5f54210f9b433cd547"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-07-network.jpg",
+      "bytes": 116369,
+      "sha256": "4d945fc82c08ff921fb5f6f32dfcc8f56357512831f303dca517d352e6b55f35"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-08-netservice-menu.jpg",
+      "bytes": 101216,
+      "sha256": "4bed924d9bcc52e9fcf18f1171bae114a562f44f897c93c64b17cc6202febb86"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-09-rtsp.jpg",
+      "bytes": 105283,
+      "sha256": "72240341cd59ebe2ad3a0962a1befaca63b95e222d6b89d41915cbdba6e4623a"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-10-cloud.jpg",
+      "bytes": 105479,
+      "sha256": "2a29193a706176a464b305b2b99c81785ce0ef814c3f6d598d1cd07d8aa756b3"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-11-upnp.jpg",
+      "bytes": 106622,
+      "sha256": "73413723ed38599add5d6e51962f512426dd0ec64eef1d970e75a3749d0e61e3"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-12-ntp.jpg",
+      "bytes": 106619,
+      "sha256": "6c919d52308954f653171d069d2db2c0695d71cc88c3b271fbf28886a3ebea9a"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-13-wifi.jpg",
+      "bytes": 114509,
+      "sha256": "a4996eb5afe25ede539d723c332c5b94ffcd045247f7825563bcff7e2862bb79"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-14-ip-filter.jpg",
+      "bytes": 110902,
+      "sha256": "5f862e9b8d54613594ceaae418e206a012d2bd06d8fb8f050dc536dda49b4962"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-15-das.jpg",
+      "bytes": 109463,
+      "sha256": "84cce9d7804739734a08512cfb1ec9d14a464abb6c05f36a6223841386174ac0"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-16-app-push.jpg",
+      "bytes": 104689,
+      "sha256": "b7f5eda6d933dd9c9835a9071359bfa5d571ac8ec6b7d25fd4597372e66dd28a"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-17-ddns.jpg",
+      "bytes": 106632,
+      "sha256": "886042fad3e2b0c95919521d346e80fd4660c3cc9f087c5ad005deba6bfd2bdd"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-18-email.jpg",
+      "bytes": 114594,
+      "sha256": "bcfa2544275a5cd7ac8614a7d4cafc615d7680e012c24cb6bb971bdca0fe15e8"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-19-ftp.jpg",
+      "bytes": 110635,
+      "sha256": "8b3ffafd46a61c067e8c9e17b2580d3c1f24f918952cbbc599f83bd38f2e4a84"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-20-alarmserver.jpg",
+      "bytes": 109625,
+      "sha256": "70e61a07ff97a23d6ec1f425085c78a4dcd42c68292d9ea5ea5383fb7999a07c"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-21-serial-passthrough.jpg",
+      "bytes": 108976,
+      "sha256": "86b71585f171d291869149dd6886804806077d5d79ab9f0ed039b0b0bd8a8757"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-22-camera-param.jpg",
+      "bytes": 127957,
+      "sha256": "a7d39909559ee4509adbae192271a0566df9775ac8da6c0eb9579d6e9859a8e6"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-23-gui-display.jpg",
+      "bytes": 105479,
+      "sha256": "27b8ab4d000f0bd41ea908cbab6b828971f6ee86e07bfb9c3a050e268f922d1c"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-24-ptz-config.jpg",
+      "bytes": 109025,
+      "sha256": "165543e8258f63ee14aedada78aabc8e4dfe8f7e327d848d1a7122507ed90a7b"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-25-rs232.jpg",
+      "bytes": 100056,
+      "sha256": "a5cf1c7c33ee965ba0af6f1fd2c1ecbdc36f2b258f58c4c4bfcce14d9f1c3a79"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-26-advanced-menu.jpg",
+      "bytes": 101772,
+      "sha256": "8247592e97bc04ffd2dad078569279a47f8af2c14c3b09ac7e43b752c681b9a0"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-27-account.jpg",
+      "bytes": 106794,
+      "sha256": "8ee3e81396941e97e7279029917cf28124b9a5933d81645a9af6a743a45eb233"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-28-auto-maintain.jpg",
+      "bytes": 102154,
+      "sha256": "8231e4bfd4d1fb4e68e2988f81930666ee928c21a46f3d377dcb7f8e1916e5c9"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-29-upgrade.jpg",
+      "bytes": 94259,
+      "sha256": "11222fd28233180975dbd71c573faf0523ea7c96bb5a449ddd2700d965d27ccd"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-30-hdd-manage.jpg",
+      "bytes": 104676,
+      "sha256": "6c6ebc1cb685bf8b1f2ad5c69bc8c1d61cd29ce3e2b1ebf04ad65bc8d6918db8"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-31-import-export.jpg",
+      "bytes": 100649,
+      "sha256": "7738f425e289a3ef23ab075680edb9b7bed0899b4f6feca28b3b98629cad7e05"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-32-record-menu.jpg",
+      "bytes": 98177,
+      "sha256": "cc42af37ac7fe832e6847602415f8642902170cb4f7298748e8b2d35236b0e3f"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-33-record-schedule.jpg",
+      "bytes": 108387,
+      "sha256": "a8376da3fe59bafe5ae2707d89ca30b6109f4d8b05796ab23dbc02a1a5d348cf"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-34-snapshot-schedule.jpg",
+      "bytes": 108038,
+      "sha256": "656b7bc999c848e901c2419e708fb74385f81e0383b412c9877b429c85ab65ea"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-35-alarm-menu.jpg",
+      "bytes": 99545,
+      "sha256": "5c124dd15cf70e1ed44f44bf1ceeb042139aa24f615fc47d6ba1b4d56dc35857"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-36-intelligent-alert.jpg",
+      "bytes": 114079,
+      "sha256": "44ca6bb6419a4d0df9ac3ef4f3a8be5d6ab80b3e62c26615106a79721a4b0470"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-37-abnormal-storage.jpg",
+      "bytes": 99811,
+      "sha256": "bef1d68126bd5cfb3ebeee02bb1544b9acee4083a3a6d9815ff6253b3bbbdedf"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-38-video-blind.jpg",
+      "bytes": 107213,
+      "sha256": "5690e34afb02430fed2c3f5834121d32c471e6c59603de0859924cfb25933831"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-39-video-loss.jpg",
+      "bytes": 106116,
+      "sha256": "4c6db1ad7ddbfe5d778ea99febb4a35cda9c6f3dc81c68fa1406a78bf70feb51"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-40-log-search.jpg",
+      "bytes": 108743,
+      "sha256": "baca2124c043e5579380af31872adc63dd25a4b0c010be42a074c11e0fc16d67"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-41-client-log.jpg",
+      "bytes": 103823,
+      "sha256": "2f99483aafdabaa7a270f56da04fb1c39d8f59e14e0bfb8b940ed9427f1d3415"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-42-localcfg-about.jpg",
+      "bytes": 100916,
+      "sha256": "8d64667d3250174b6c1b43504148cda71634200120291271bcf718c5c3b2ebff"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-43-localcfg-system.jpg",
+      "bytes": 106382,
+      "sha256": "ec4a7eaff1839630cd2d79fc9d8e96220001b9fbd3d850d69bc5a45d40917303"
+    },
+    {
+      "archivo": "galeria/evidencias-web/reconocimiento-2026-11-02/cam-ui-44-playback.jpg",
+      "bytes": 107082,
+      "sha256": "7717024b21f10df62fade1d183be1c846e98d75ff71c90ae941c4766234ee790"
+    },
+    {
+      "archivo": "originales/figura-1-1.png",
+      "bytes": 1065998,
+      "sha256": "fa7679868b0f565bb9d50509996614dad767d3f2ef656697cd68695aacae5baa"
+    },
+    {
+      "archivo": "originales/figura-1-2.jpg",
+      "bytes": 245146,
+      "sha256": "06983191a8c758111b597b56eccfff28853776c7a70018ed56a5a03477a8302c"
+    },
+    {
+      "archivo": "originales/figura-2-1.jpg",
+      "bytes": 6669287,
+      "sha256": "90f349973a7a849a5111452cb65120d3cb517fd29f2417cb7fc6343ffaabde10"
+    },
+    {
+      "archivo": "originales/figura-2-2.jpg",
+      "bytes": 6659211,
+      "sha256": "78e5670824b839803d92c467eb538d80d3fa9240cca10cf5275f9c8d8cc7241c"
+    },
+    {
+      "archivo": "originales/figura-6-1.png",
+      "bytes": 72744,
+      "sha256": "604603703ad7db7b0f4693fb983177c782c4d2ba12c5d96439fa0a93a12012ab"
+    },
+    {
+      "archivo": "originales/figura-6-2.png",
+      "bytes": 1531018,
+      "sha256": "6ff5b687a8958b320e0798495aaaee4b9c81b033280fe844f2d69d22b329c6cc"
+    },
+    {
+      "archivo": "procedencia.json",
+      "bytes": 35176,
+      "sha256": "0e00a4325e632dae4a5ccaa944066c8905b6d2f0f297b2b094eca590bead7d10"
+    },
+    {
+      "archivo": "README.md",
+      "bytes": 2663,
+      "sha256": "f266fef8db09d0d17529490f5f3c31065e005b365be638829b290caf831c9000"
+    },
+    {
+      "archivo": "scripts/captura-uart.ps1",
+      "bytes": 5550,
+      "sha256": "2fdd155e696bf85346a98aab20e79a5d194d602fc8402fbce249a4c1be671fd2"
+    },
+    {
+      "archivo": "scripts/completar-uart.ps1",
+      "bytes": 11549,
+      "sha256": "99590deb233be327ddcbe9af11075e574453e9e84cf041a605154088dba38097"
+    },
+    {
+      "archivo": "scripts/inventariar-regiones-firmware.cjs",
+      "bytes": 4476,
+      "sha256": "89ebd1d9c42a250be7747418af5f075e04df1a9c2e6cdb7818dec2d84fa70427"
+    },
+    {
+      "archivo": "scripts/tmic-root06-xm530.py",
+      "bytes": 12220,
+      "sha256": "dd2fb50b7817b078d0099619610554b10b1ed3c79ac0ec3731a2cb8eb7207716"
+    },
+    {
+      "archivo": "scripts/verificar-dump-uboot.cjs",
+      "bytes": 8885,
+      "sha256": "cec83ba898a1c9904d5afe59586e0ed057445be857c54d25d6489333dfc62cca"
+    },
+    {
+      "archivo": "scripts/verificar-repositorio.cjs",
+      "bytes": 404,
+      "sha256": "5e34eb22547bc782c1332c8fddad827c6a5010a98121833c630899f92ce5db84"
+    },
+    {
+      "archivo": "videos/desmontaje-camara.mp4",
+      "bytes": 58537851,
+      "sha256": "fd060c1e8e17fa99b6f1c97981855540896d81502a1de6b0e6df61dda26cedc1"
+    },
+    {
+      "archivo": "videos/procedencia.json",
+      "bytes": 601,
+      "sha256": "8999fb6c1d2654d1fe915dbcf7dec01053beb4d4a9f52bc90d9ac38b71a291b9"
+    }
+  ]
+}

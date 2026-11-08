@@ -1,0 +1,10 @@
+flowchart LR
+    subgraph CAM["Dentro de la cámara"]
+      UB["U-Boot"] --> LX["Linux y sistemas de archivos"]
+      LX --> SF["Sofia y servicios locales"]
+    end
+    WEB["PC: Edge modo IE y ActiveX"] <-->|"HTTP y DVRIP: observado"| SF
+    VMS["PC: VMS por IP, documentado"] -.-> SF
+    MOB["Móvil: iCSee, sin alta realizada"] -.-> SF
+    SF -.-> CL["Servicios externos: ruta cloud pendiente"]
+    MOB -.-> CL

@@ -1,0 +1,12 @@
+{
+  "original": "20261029_175429.mp4",
+  "sha256_original": "1447ae7eef1da23614cb9bfa36a72d44ee6bb51c4e31c47c17bae67259bbd548",
+  "derivado": "desmontaje-camara.mp4",
+  "bytes": 58537851,
+  "sha256": "fd060c1e8e17fa99b6f1c97981855540896d81502a1de6b0e6df61dda26cedc1",
+  "duracion_original_s": 258.256544,
+  "duracion_derivada_s": 258.266667,
+  "conversion": "H.264 1800 kbit/s, máximo 2200 kbit/s; AAC 64 kbit/s; lado máximo 1280; vídeo completo",
+  "limite_bytes": 100000000,
+  "reproduccion_readme": "https://github.com/user-attachments/assets/f265bce5-e55e-40a9-b1bc-8f64e651e0a7"
+}

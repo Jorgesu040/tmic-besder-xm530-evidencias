@@ -1,0 +1,16 @@
+[
+  {
+    "archivo": "Flujo_cargar_pagina_login_incorrecto_y_correcto.pcapng",
+    "bytes": 592468,
+    "sha256": "74b207fa7405b0a179134a7eb599c81f48ec98c6227ea7505d64ec37a95529ef",
+    "estado": "Incluido sin modificar con autorización del autor; laboratorio con contraseña por defecto vacía",
+    "ruta": "capturas/Flujo_cargar_pagina_login_incorrecto_y_correcto.pcapng"
+  },
+  {
+    "archivo": "Interaccion_camara_interfaz.pcapng",
+    "bytes": 194800,
+    "sha256": "78cff5feceb21e54ffda5f06eb12f789bfe042f32bbae486f73beb91f1418640",
+    "estado": "Incluido sin modificar con autorización del autor; laboratorio con contraseña por defecto vacía",
+    "ruta": "capturas/Interaccion_camara_interfaz.pcapng"
+  }
+]

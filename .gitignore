@@ -1,0 +1,18 @@
+# Datos originales con configuración o autenticación
+*.bin
+*.pcap
+*.pcapng
+*.potfile
+*.restore
+*.match
+.env*
+*.key
+*.pem
+__pycache__/
+Thumbs.db
+.DS_Store
+# Vídeo original de más de 1 GiB: usar enlace externo
+video-original/
+
+# Capturas del laboratorio autorizadas por el autor
+!/capturas/*.pcapng

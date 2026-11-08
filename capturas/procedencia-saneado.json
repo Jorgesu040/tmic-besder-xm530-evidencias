@@ -1,0 +1,36 @@
+[
+  {
+    "original": "Flujo_cargar_pagina_login_incorrecto_y_correcto.pcapng",
+    "sha256_original": "74b207fa7405b0a179134a7eb599c81f48ec98c6227ea7505d64ec37a95529ef",
+    "derivado": "Flujo_cargar_pagina_login_incorrecto_y_correcto-saneado.pcapng",
+    "sha256_derivado": "188ac31d27bd6d26e25b8c909ef7037159777eb22a1a4c0930b9a5d0a799a701",
+    "paquetes_original": 1596,
+    "paquetes_derivado": 1459,
+    "campos_sustituidos": 146,
+    "transformaciones": [
+      "Solo IPv4 hacia o desde la cámara 10.0.0.35",
+      "Valores de autenticación, cookies y SessionID sustituidos; tamaños conservados",
+      "SessionID binario DVRIP puesto a cero",
+      "Checksums IP/TCP recalculados en paquetes TCP con datos",
+      "Opciones de los bloques de paquetes omitidas"
+    ],
+    "limitacion": "Copia saneada: no usar para validar autenticación ni reproducción exacta de la sesión original."
+  },
+  {
+    "original": "Interaccion_camara_interfaz.pcapng",
+    "sha256_original": "78cff5feceb21e54ffda5f06eb12f789bfe042f32bbae486f73beb91f1418640",
+    "derivado": "Interaccion_camara_interfaz-saneado.pcapng",
+    "sha256_derivado": "c76e566c146f99058a73f19980c03a8a742369d13d261cec19c17d1cd3c58577",
+    "paquetes_original": 491,
+    "paquetes_derivado": 426,
+    "campos_sustituidos": 29,
+    "transformaciones": [
+      "Solo IPv4 hacia o desde la cámara 10.0.0.35",
+      "Valores de autenticación, cookies y SessionID sustituidos; tamaños conservados",
+      "SessionID binario DVRIP puesto a cero",
+      "Checksums IP/TCP recalculados en paquetes TCP con datos",
+      "Opciones de los bloques de paquetes omitidas"
+    ],
+    "limitacion": "Copia saneada: no usar para validar autenticación ni reproducción exacta de la sesión original."
+  }
+]
